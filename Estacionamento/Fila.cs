@@ -34,8 +34,7 @@ namespace Estacionamento
                 this.last = this.first;
             else
                 auxiliar.prox = null;
-            auxiliar.prox = null;
-
+            
             return auxiliar.carro;
         }
 
